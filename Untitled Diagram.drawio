@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-21T13:30:51.275Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="FaUbfIP2btl9Pj3be9tC" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-21T14:09:20.221Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="FkRA9l8opvuD9H-DP82G" version="22.1.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2062" dy="1824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="-190" y="-130" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="L5MsbCS6EArVhDVRvrha-22" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;PlayerObserver&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ notifyNewStandAvailable(standName: String): void;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="416.5" y="-50" width="296" height="70" as="geometry" />
+          <mxGeometry x="414" y="257" width="296" height="70" as="geometry" />
         </mxCell>
         <mxCell id="L5MsbCS6EArVhDVRvrha-23" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;StandFactory&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ createStand(): Stand;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-460" y="-100" width="190" height="60" as="geometry" />
@@ -44,10 +44,15 @@
           <mxGeometry x="-30" y="400" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="L5MsbCS6EArVhDVRvrha-43" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Player&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;+ Player(name:String);&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;+ notifyNewStandAvailable(standName: String): void;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;spacingLeft=4;spacingRight=4;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="429.5" y="110" width="290" height="100" as="geometry" />
+          <mxGeometry x="406.5" y="40" width="290" height="100" as="geometry" />
         </mxCell>
         <mxCell id="L5MsbCS6EArVhDVRvrha-46" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;StandShop&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;+ StandShop();&lt;br&gt;+ addPlayer(player: PlayerObserver): void;&lt;br&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;+ announceNewStand()standName: String): void;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;spacingLeft=4;spacingRight=4;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="416.5" y="-260" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="L5MsbCS6EArVhDVRvrha-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="L5MsbCS6EArVhDVRvrha-47" target="L5MsbCS6EArVhDVRvrha-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="20" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="L5MsbCS6EArVhDVRvrha-47" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;JojoRPGWorld&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;+main(args: String[]): void;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;spacingLeft=4;spacingRight=4;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="80" y="-240" width="150" height="60" as="geometry" />
@@ -57,6 +62,7 @@
             <mxPoint x="-240" y="-40" as="sourcePoint" />
             <mxPoint x="160" y="100" as="targetPoint" />
             <Array as="points">
+              <mxPoint x="-220" y="-90" />
               <mxPoint x="-220" y="-22" />
             </Array>
           </mxGeometry>
@@ -131,6 +137,23 @@
             <mxPoint x="-230" y="-170" as="sourcePoint" />
             <mxPoint x="-70" y="-170" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="L5MsbCS6EArVhDVRvrha-75" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=0.401;exitY=1.11;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.002;entryY=0.941;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="L5MsbCS6EArVhDVRvrha-23" target="L5MsbCS6EArVhDVRvrha-28">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-400" as="sourcePoint" />
+            <mxPoint x="-240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-384" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L5MsbCS6EArVhDVRvrha-76" value="Association" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="L5MsbCS6EArVhDVRvrha-75">
+          <mxGeometry x="-0.4766" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L5MsbCS6EArVhDVRvrha-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.465;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="L5MsbCS6EArVhDVRvrha-43" target="L5MsbCS6EArVhDVRvrha-22">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
